@@ -8,6 +8,9 @@
 
         _init: function () {
             var self = this;
+            if (this.interval <= 0) {
+                return;
+            }
 
             if (this._timer !== undefined) {
                 window.clearInterval(this._timer);

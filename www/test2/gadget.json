@@ -1,0 +1,10 @@
+{
+    "title": "Test2",
+    "description": "",
+    "priority": 1,
+    "position": 1,
+    "interval": 40,
+    "html": "http://dashboard.va/test2/test2.php",
+    "css": [],
+    "js": []
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Clock",
+    "description": "",
+    "priority": 1,
+    "position": 3,
+    "interval": 1,
+    "html": "http://dashboard.va/clock/clock.php",
+    "css": [
+        "http://dashboard.va/clock/css/main.css"
+    ],
+    "js": [
+        "http://dashboard.va/clock/js/main.js"
+    ]
+}

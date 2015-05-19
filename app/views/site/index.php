@@ -21,4 +21,9 @@
 			<?php $this->widget('GadgetWidget', array('gadgets' => $gadgets, 'position' => 4)); ?>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<?php $this->widget('GadgetWidget', array('gadgets' => $gadgets, 'position' => 5)); ?>
+		</div>
+	</div>
 </div>

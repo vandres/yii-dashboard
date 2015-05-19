@@ -29,27 +29,20 @@ return array(
 				),
 			),
 		),
+		'less'=>array(
+			'class'=>'LessCompiler',
+			'compiledPath'=>'application.assets.css', // path to store compiled css files
+			'formatter'=>'lessjs', // - lessjs / compressed / classic , see http://leafo.net/lessphp/docs/#output_formatting for details
+			'forceCompile'=>false, // passing in true will cause the input to always be recompiled
+			'disabled'=>true, // if set to true .less files will not compile if .css file found
+		),
 		'gadget' => array(
 			'class' => 'Gadget',
 			'gadgets' => array(
-				array(
-					'class' => 'HTMLGadget',
-					'url' => 'http://dashboard.va/test.php',
-					'interval' => 60,
-					'position' => 1,
-				),
-				array(
-					'class' => 'HTMLGadget',
-					'url' => 'http://dashboard.va/test2.php',
-					'interval' => 30,
-					'position' => 2,
-				),
-				array(
-					'class' => 'HTMLGadget',
-					'url' => 'http://dashboard.va/clock.php',
-					'interval' => 1,
-					'position' => 3,
-				),
+				'http://dashboard.va/test',
+				'http://dashboard.va/test2/',
+				'http://dashboard.va/clock/gadget.json',
+				'http://dashboard.va/marquee/gadget.json',
 			),
 		),
 	),

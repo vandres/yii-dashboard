@@ -1,0 +1,12 @@
+{
+    "title": "Clock",
+    "description": "",
+    "priority": 1,
+    "position": 5,
+    "interval": 0,
+    "html": "http://dashboard.va/marquee/index.html",
+    "css": [
+        "http://dashboard.va/marquee/css/main.css"
+    ],
+    "js": []
+}

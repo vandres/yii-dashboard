@@ -10,7 +10,7 @@ class GadgetWidget extends CPortlet
 	{
 		$currentGadget = null;
 		foreach ($this->gadgets as $gadget) {
-			if ($this->position !== $gadget['position']) {
+			if ($this->position !== $gadget->position) {
 				continue;
 			}
 
